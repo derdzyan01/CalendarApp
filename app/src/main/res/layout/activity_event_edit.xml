@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EventEditActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextEventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Title"
+            android:inputType="textCapSentences"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            tools:text="Mar 27, 2025"/>
+
+        <Button
+            android:id="@+id/buttonStartTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_marginStart="8dp"
+            tools:text="09:00 AM"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/buttonEndDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            tools:text="Mar 27, 2025"/>
+
+        <Button
+            android:id="@+id/buttonEndTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_marginStart="8dp"
+            tools:text="10:00 AM"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Color:"
+        android:textAppearance="?attr/textAppearanceBody1"/>
+
+    <LinearLayout
+        android:id="@+id/colorPickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <View
+            android:id="@+id/colorOptionBlue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#4285F4"
+            android:layout_marginEnd="8dp"/>
+        <View
+            android:id="@+id/colorOptionGreen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#34A853"
+            android:layout_marginEnd="8dp"/>
+        <View
+            android:id="@+id/colorOptionYellow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#FBBC05"
+            android:layout_marginEnd="8dp"/>
+        <View
+            android:id="@+id/colorOptionRed"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#EA4335"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonDeleteEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textColor="@android:color/holo_red_dark"
+        app:strokeColor="@android:color/holo_red_dark"
+        android:visibility="gone" /> <View
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_weight="1"/> <Button
+    android:id="@+id/buttonCancelEvent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cancel"
+    style="?attr/materialButtonOutlinedStyle"
+    android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>
+
+</LinearLayout>
