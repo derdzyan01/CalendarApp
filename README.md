@@ -6,7 +6,7 @@ A day-view calendar for Android. Events are drawn on a custom timeline, the same
 
 | Day view | New event | Edit event |
 | :---: | :---: | :---: |
-| <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/13de844d-2b6a-4604-9131-bb6f2775942b" /> | <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/048decff-9d3f-4753-81e2-f497d94b11d3" /> | <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/56452f24-c97e-4f15-9d76-2ebf52ac36cc" /> |
+| <img width="240" alt="image" src="https://github.com/user-attachments/assets/13de844d-2b6a-4604-9131-bb6f2775942b" /> | <img width="240" alt="image" src="https://github.com/user-attachments/assets/048decff-9d3f-4753-81e2-f497d94b11d3" /> | <img width="240"  alt="image" src="https://github.com/user-attachments/assets/56452f24-c97e-4f15-9d76-2ebf52ac36cc" /> |
 
 
 ## Features
